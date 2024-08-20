@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+
+}
+
+body{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    min-height:100vh;
+    background: #f7f7f7;
+
+
+}
+
+
+.wrapper{
+    background: #fff;
+    width: 450px;
+    border-radius: 16px;
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+                0 32px  64px -48px rgba(0,0,0,0.5);
+
+
+
+}
+
+/* Sign up form css code*/
+.form{
+    padding: 25px 30px;
+    margin: 5px;
+}
+
+header{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    padding: 10px 20px;
+    border-bottom: 1px solid #e6e6e6;
+
+}
+
+.error-text {
+    color: #721c24;
+    background: #f8d7da;
+    padding: 8px 10px;
+    margin: 25px;
+    text-align:center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border:1px solid #f5c6cb;
+
+}
+
+
+.field{
+    padding: 4px 7px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    position: relative;
+    
+}
+.field input{
+    border-radius: 3px;
+    height: 35px;
+    border:1px solid  #ccc;
+   
+}
+.field i{
+   position: absolute;
+   right: 15px;
+   top: 70%;
+   transform: translateY(-50%);
+   cursor: pointer;
+   color: #ccc;
+}
+
+
+.name-details{
+    display:flex ;
+}
+
+.link{
+    text-align:center ;
+}
+
+/* Users area CSS code */
+
+.users{
+    padding: 25px 30px;
+}
+
+.users header ,
+.users-list a{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    border-bottom: 1px solid #e6e6e6;
+    font-size: 18px;
+    
+
+}
+
+.users img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+}
+
+.content{
+    display: flex;
+}
+.content span{
+    font-size: 15px;
+}
+
+p{
+    font-size: 12.5px;
+    color: #878585;
+}
+
+.searchinput input{
+ 
+    width: 300px;
+    height: 40px;
+    border-radius: 7px;
+}
+
+.users-list{
+    width: 350px;
+    
+}
+.users-list a{
+    text-decoration: none;
+}
+.users-list a span{
+   
+    color: #333;
+
+}
+
+.users-list a i{
+    color: green;
+    
+}
+
+
+/* Chat Area CSS code*/
+
+img{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+
+}
+
+.chat-box{
+    height: 500px;
+    width: 500px;
+    background: #f7f7f7;
+    padding: 8px 16px;
+   
+
+}
+
+
+.chat-outgoing{
+    background: rgb(5, 5, 5);
+    color:white;
+    margin-left: auto;
+    max-width: calc(100% - 130px);
+    padding: 8px 16px;
+    border-radius: 18px 18px 0 18px;
+    word-wrap: break-word;
+
+}
+.chat-incoming{
+    background: rgb(215, 212, 212);
+    color:rgb(0, 0, 0);
+    
+    margin-right: auto;
+    max-width: calc(100% - 130px);
+    padding: 8px 16px;
+    border-radius: 18px 18px 0 18px;
+    word-wrap: break-word;
+    
+
+}
+
+
+
+.typing-area{
+    margin: 5px;
+    padding: 18px 30px;
+    margin-top: 10px;  
+    display: flex;
+    justify-content: space-between;
+ }
+
+.typing-area input{
+    height: 45px;
+    width: 350px;
+    border-radius: 7px;
+}
+
+.typing-area button{
+  width: 55px;
+  height: 45px;
+ 
+}
+.typing-area button i{
+  font-size: 35px;
+  margin-top: -1px;
+  color: #fff;
+  cursor: pointer;
+}
